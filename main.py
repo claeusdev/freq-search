@@ -1,5 +1,7 @@
+from core.read_file import count_unique_words
+
 def main():
-    print("Hello from freq-search!")
+    print(count_unique_words("lost-key.txt"))
 
 
 if __name__ == "__main__":
